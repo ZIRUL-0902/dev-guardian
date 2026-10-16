@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "skill-format",
+  "level": "build",
+  "status": "PASSED",
+  "exit_code": 0,
+  "reason": "",
+  "argv": [
+    "work/validator-env/bin/python",
+    "/Users/ryanliu/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+    "outputs/dev-guardian"
+  ],
+  "cwd": ".",
+  "started_utc": "2026-10-16T14:40:58.458531+00:00",
+  "duration_seconds": 0.108,
+  "before": {
+    "head": "fa35be9ff50a74742680ca79f40f8f1ccd7b70a9",
+    "branch": "main",
+    "tree_sha256": "054c41470fb051c3f0c4f0663fae6b45b78c243db12b4b01c0d07ec200d1d16a",
+    "environment": {
+      "os": "Darwin",
+      "release": "27.0.0",
+      "machine": "arm64",
+      "python": "3.9.6",
+      "git": "git version 2.54.0 (Apple Git-157)",
+      "environment_record_sha256": "15512b300a1c690a82b88802fdab9f9a30f87ef99793b03d5b58f3c8a33c4895"
+    },
+    "environment_sha256": "1a34063a362dea3f10982bece24395fad519c2725f616368320c1b484d618205",
+    "files_count": 32
+  },
+  "after": {
+    "head": "fa35be9ff50a74742680ca79f40f8f1ccd7b70a9",
+    "branch": "main",
+    "tree_sha256": "054c41470fb051c3f0c4f0663fae6b45b78c243db12b4b01c0d07ec200d1d16a",
+    "environment": {
+      "os": "Darwin",
+      "release": "27.0.0",
+      "machine": "arm64",
+      "python": "3.9.6",
+      "git": "git version 2.54.0 (Apple Git-157)",
+      "environment_record_sha256": "15512b300a1c690a82b88802fdab9f9a30f87ef99793b03d5b58f3c8a33c4895"
+    },
+    "environment_sha256": "1a34063a362dea3f10982bece24395fad519c2725f616368320c1b484d618205",
+    "files_count": 32
+  },
+  "log": ".dev-guardian/evidence/20261016T144058.458142Z-b1b0c99eeb/output.log",
+  "log_sha256": "db349825903d66adffea3ecf1bd8e1803043e8a71cf1a051235dabc5371f5bb0",
+  "output_bytes": 16,
+  "log_truncated": false
+}

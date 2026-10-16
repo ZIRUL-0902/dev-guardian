@@ -49,3 +49,7 @@ python3 outputs/dev-guardian/scripts/guardian.py --root . check
 - Checkpoint 只保護明確選取的安全檔案；未選、ignored、外部資源不在備份範圍。壓縮檔與 logs 預設留本機，摘要可 Git 同步。交付包內包含本次經檢查的安全日誌；日後同步其他 logs 前仍須審查，或在接收端重新驗證。
 
 交付包包含技能、AGENTS、記憶範本與目前紀錄、測試、CI、安裝紀錄及本次安全證據；解壓後先讀 AGENTS，再依實際新 Git 狀態重新驗證。
+
+## 後續 GitHub 發布（2026-10-16）
+
+已建立私人儲存庫 [ZIRUL-0902/dev-guardian](https://github.com/ZIRUL-0902/dev-guardian)，後續狀態以 GitHub 與專案 STATE 為準。前文的「未設定遠端／未推送」描述第一階段交付狀態。SSH 安裝與更新請見 [SSH-INSTALL.md](SSH-INSTALL.md)；目前 Codex 官方使用者技能路徑為 `~/.agents/skills`。原始 zip 是第一階段快照，GitHub 包含後續文件更新。

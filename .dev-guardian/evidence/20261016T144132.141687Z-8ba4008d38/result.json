@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "other-llm-and-device",
+  "level": "manual",
+  "status": "NOT TESTED",
+  "reason": "Actual Claude/Gemini clients and a second device are unavailable in this session.",
+  "before": {
+    "head": "fa35be9ff50a74742680ca79f40f8f1ccd7b70a9",
+    "branch": "main",
+    "tree_sha256": "054c41470fb051c3f0c4f0663fae6b45b78c243db12b4b01c0d07ec200d1d16a",
+    "environment": {
+      "os": "Darwin",
+      "release": "27.0.0",
+      "machine": "arm64",
+      "python": "3.9.6",
+      "git": "git version 2.54.0 (Apple Git-157)",
+      "environment_record_sha256": "15512b300a1c690a82b88802fdab9f9a30f87ef99793b03d5b58f3c8a33c4895"
+    },
+    "environment_sha256": "1a34063a362dea3f10982bece24395fad519c2725f616368320c1b484d618205",
+    "files_count": 32
+  },
+  "recorded_utc": "2026-10-16T14:41:32.198898+00:00"
+}

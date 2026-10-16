@@ -8,7 +8,11 @@ Status: implemented; local verification executed; external guarantees remain exp
 - Skill: outputs/dev-guardian/SKILL.md; CLI: outputs/dev-guardian/scripts/guardian.py.
 - Rules: root AGENTS.md; environment/decisions: neighboring Markdown files.
 - Initial project was empty, with no user changes or application tests to preserve.
-- Git: main, local repository, no remote. Read actual HEAD/status/diffs; final evidence stores exact revision and dirty/index hash. Do not guess from this summary.
+- Git: main; origin private ZIRUL-0902/dev-guardian. Previous verified HEAD: fa35be9ff50a74742680ca79f40f8f1ccd7b70a9.
+- Verified tree SHA256: 054c41470fb051c3f0c4f0663fae6b45b78c243db12b4b01c0d07ec200d1d16a. Reconcile actual status on resume.
+- Latest pre-publish local CLI evidence: .dev-guardian/evidence/20261016T150613.834989Z-db35107a5b/result.json (21 tests, no failures; source fingerprint in JSON).
+- Latest format evidence: .dev-guardian/evidence/20261016T144058.458142Z-b1b0c99eeb/result.json.
+- Prior evidence is historical after the publication commit; rerun checks on the committed revision or receiving device.
 - Local global skill install is a symlink; installation details in outputs/installations.json.
 
 ## Progress and acceptance
@@ -40,4 +44,11 @@ python3 outputs/dev-guardian/scripts/guardian.py --root . snapshot
 python3 outputs/dev-guardian/scripts/guardian.py --root . verify
 python3 outputs/dev-guardian/scripts/guardian.py --root . check
 ```
-Read current result/log and reconcile actual source before further work. Repeat tests after changes/commits/environment updates. No push, deployment or destructive Git operation was performed.
+Read current result/log and reconcile actual source before further work. Repeat tests after changes/commits/environment updates. Initial delivery performed no push; GitHub publication is tracked in the task section below. No deployment or destructive Git operation.
+
+## GitHub / SSH distribution task
+- Scope: publish existing repository as ZIRUL-0902/dev-guardian (private by default), add SSH installation instructions, preserve prior records and user edits.
+- Acceptance: authenticated repository creation, successful push, matching remote/local HEAD, clean fresh clone with skill/resources present and all 21 CLI tests passing.
+- Remote SSH Codex runtime remains NOT TESTED until run on the user's actual host. No SSH server or target path supplied.
+- Progress: private GitHub repository created; README and outputs/SSH-INSTALL.md added; official current user skill path verified; local 21-case suite passed after documentation changes.
+- Next: commit/push reviewed changes, compare remote/local HEAD, run fresh-clone tests and inspect CI.

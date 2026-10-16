@@ -1,6 +1,6 @@
 # Reproducible environment
 
-- Project: initially empty directory; no existing application, tests, CI or ancestor AGENTS found. Git initialized on main for local synchronization; no remote configured.
+- Project: initially empty directory; no existing application, tests, CI or ancestor AGENTS found. Git initialized on main; origin is https://github.com/ZIRUL-0902/dev-guardian.git (private), created for SSH distribution.
 - Source skill: outputs/dev-guardian (tracked). Local Codex install is ~/.codex/skills/dev-guardian symlink to this source. Recreate on another device or copy the folder; do not depend on the absolute link.
 - Runtime tested: macOS Darwin arm64; /usr/bin/python3 3.9.6; Git 2.54.0 (Apple Git-157). Runtime helper/tests use Python standard library only; minimum Python 3.9.
 - Setup: python3 outputs/dev-guardian/scripts/guardian.py --root . init (non-overwriting).

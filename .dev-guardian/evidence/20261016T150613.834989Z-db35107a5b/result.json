@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "guardian-cli",
+  "level": "integration",
+  "status": "PASSED",
+  "exit_code": 0,
+  "reason": "",
+  "argv": [
+    "python3",
+    "outputs/dev-guardian/tests/test_guardian.py"
+  ],
+  "cwd": ".",
+  "started_utc": "2026-10-16T15:06:13.835418+00:00",
+  "duration_seconds": 8.136,
+  "before": {
+    "head": "fa35be9ff50a74742680ca79f40f8f1ccd7b70a9",
+    "branch": "main",
+    "tree_sha256": "6fc634f963e980810eecc9322fb357979e922b1dda0082b8c9e661bb2a89241b",
+    "environment": {
+      "os": "Darwin",
+      "release": "27.0.0",
+      "machine": "arm64",
+      "python": "3.9.6",
+      "git": "git version 2.54.0 (Apple Git-157)",
+      "environment_record_sha256": "c4ddb7863e5c836a09d754af14c09147fb0722e2f67b42288d4e858f749aeaa7"
+    },
+    "environment_sha256": "f999e1dca16c43355b3af76d3175eb3de0d2e1b2ddbf308ec6f3ee051489fe3a",
+    "files_count": 34
+  },
+  "after": {
+    "head": "fa35be9ff50a74742680ca79f40f8f1ccd7b70a9",
+    "branch": "main",
+    "tree_sha256": "6fc634f963e980810eecc9322fb357979e922b1dda0082b8c9e661bb2a89241b",
+    "environment": {
+      "os": "Darwin",
+      "release": "27.0.0",
+      "machine": "arm64",
+      "python": "3.9.6",
+      "git": "git version 2.54.0 (Apple Git-157)",
+      "environment_record_sha256": "c4ddb7863e5c836a09d754af14c09147fb0722e2f67b42288d4e858f749aeaa7"
+    },
+    "environment_sha256": "f999e1dca16c43355b3af76d3175eb3de0d2e1b2ddbf308ec6f3ee051489fe3a",
+    "files_count": 34
+  },
+  "log": ".dev-guardian/evidence/20261016T150613.834989Z-db35107a5b/output.log",
+  "log_sha256": "263173735b4e403c29eb652e72a3a28c0ddd6c18a548236b8c7b809d481b1f4e",
+  "output_bytes": 163,
+  "log_truncated": false
+}
