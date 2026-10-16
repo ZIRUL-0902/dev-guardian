@@ -1,0 +1,7 @@
+work/
+__pycache__/
+*.pyc
+.DS_Store
+.dev-guardian/checkpoints/
+.dev-guardian/evidence/*/output.log
+outputs/*.zip

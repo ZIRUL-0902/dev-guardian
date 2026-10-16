@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "id": "guardian-cli",
+      "level": "integration",
+      "paths": [
+        "*"
+      ],
+      "argv": [
+        "python3",
+        "outputs/dev-guardian/tests/test_guardian.py"
+      ],
+      "timeout": 90
+    }
+  ],
+  "required_ids": [
+    "guardian-cli"
+  ]
+}

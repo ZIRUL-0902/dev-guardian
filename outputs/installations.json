@@ -1,0 +1,34 @@
+{
+  "checked_date": "2026-10-16 Asia/Taipei",
+  "dev-guardian": {
+    "installation": "~/.codex/skills/dev-guardian",
+    "type": "symlink to repository outputs/dev-guardian",
+    "automatic_discovery": "NOT TESTED until a subsequent client turn"
+  },
+  "ponytail": {
+    "repository": "https://github.com/DietrichGebert/ponytail",
+    "inspected_commit": "6f1c2bfff0c837d268929a7c4e490918eb4fab29",
+    "plugin": "ponytail@ponytail",
+    "version": "5.3.1",
+    "installed": true,
+    "enabled": true,
+    "local_hook_smoke": "PASSED with isolated PLUGIN_DATA and explicit bundled Node",
+    "client_lifecycle_hooks": "NOT TESTED; upstream requires /hooks trust and new thread"
+  },
+  "taste-skill": {
+    "repository": "https://github.com/leonxlnx/taste-skill",
+    "commit": "f624f37a8c650b9cc550253104925efe4c8de246",
+    "installed_skill": "design-taste-frontend",
+    "files_compared": 29,
+    "all_files_match": true,
+    "generator_smoke": "PASSED",
+    "real_chrome_inspector_smoke": "PASSED; one WARN: fixture page has no action button",
+    "scope": "default primary skill with scripts/references/library; optional style variants not installed"
+  },
+  "runtime": {
+    "default_shell_node": "BLOCKED: node not on PATH",
+    "bundled_node_version": "v24.19.0",
+    "bundled_node_path": "/Users/ryanliu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+  }
+}

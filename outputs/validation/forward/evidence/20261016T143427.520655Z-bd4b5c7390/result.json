@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "totals-boundaries",
+  "level": "unit",
+  "status": "PASSED",
+  "exit_code": 0,
+  "reason": "",
+  "argv": [
+    "python3",
+    "-c",
+    "from service import total; assert total([]) == 0; assert total([-4, 2]) == -2; assert total(x for x in range(100)) == 4950; assert total([10**100, 1]) == 10**100 + 1; exec(\"try:\\n total([1, None])\\nexcept TypeError:\\n pass\\nelse:\\n raise AssertionError(\\\"invalid value accepted\\\")\"); print(\"5 boundary assertions passed; real local function, no doubles\")"
+  ],
+  "cwd": ".",
+  "started_utc": "2026-10-16T14:34:27.520950+00:00",
+  "duration_seconds": 0.064,
+  "before": {
+    "head": "UNBORN",
+    "branch": "main",
+    "tree_sha256": "4a6e1eb21b52baef008f79fbb3954db3ceb07f9ba272e4848647002e175f3a66",
+    "environment": {
+      "os": "Darwin",
+      "release": "27.0.0",
+      "machine": "arm64",
+      "python": "3.9.6",
+      "git": "git version 2.54.0 (Apple Git-157)",
+      "environment_record_sha256": "dda54e4922d7b4ce9ae3379c76cd360942b48166f3b507d4deecc60883af2832"
+    },
+    "environment_sha256": "9dde7a98120d41a9a7ab164ba6b2f5e26983c891706417c2cdc65586716f308f",
+    "files_count": 4
+  },
+  "after": {
+    "head": "UNBORN",
+    "branch": "main",
+    "tree_sha256": "4a6e1eb21b52baef008f79fbb3954db3ceb07f9ba272e4848647002e175f3a66",
+    "environment": {
+      "os": "Darwin",
+      "release": "27.0.0",
+      "machine": "arm64",
+      "python": "3.9.6",
+      "git": "git version 2.54.0 (Apple Git-157)",
+      "environment_record_sha256": "dda54e4922d7b4ce9ae3379c76cd360942b48166f3b507d4deecc60883af2832"
+    },
+    "environment_sha256": "9dde7a98120d41a9a7ab164ba6b2f5e26983c891706417c2cdc65586716f308f",
+    "files_count": 4
+  },
+  "log": ".dev-guardian/evidence/20261016T143427.520655Z-bd4b5c7390/output.log",
+  "log_sha256": "820595fc19483c6fda3977ee11a8197d788e3d8a631cc1e948845a78161a401a",
+  "output_bytes": 62,
+  "log_truncated": false
+}

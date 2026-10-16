@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dev Guardian"
+  short_description: "Persistent handoff and evidence-based development"
+  default_prompt: "Use $dev-guardian to resume development and verify the result with traceable evidence."

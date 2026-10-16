@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "totals-boundaries",
+  "level": "unit",
+  "status": "PASSED",
+  "exit_code": 0,
+  "reason": "",
+  "argv": [
+    "python3",
+    "-c",
+    "from service import total; assert total([]) == 0; assert total([-4, 2]) == -2; assert total(x for x in range(100)) == 4950; assert total([10**100, 1]) == 10**100 + 1; exec(\"try:\\n total([1, None])\\nexcept TypeError:\\n pass\\nelse:\\n raise AssertionError(\\\"invalid value accepted\\\")\"); print(\"5 boundary assertions passed; real local function, no doubles\")"
+  ],
+  "cwd": ".",
+  "started_utc": "2026-10-16T14:33:26.855166+00:00",
+  "duration_seconds": 0.068,
+  "before": {
+    "head": "UNBORN",
+    "branch": "main",
+    "tree_sha256": "2ef998037bd8d1e6f50638102bd3eef510564348ab59994e359c9cd2a86ce032",
+    "environment": {
+      "os": "Darwin",
+      "release": "27.0.0",
+      "machine": "arm64",
+      "python": "3.9.6",
+      "git": "git version 2.54.0 (Apple Git-157)"
+    },
+    "environment_sha256": "c57f15f80f23c3631c20f98d6ab60395ec54af785982e9850450ad15c9f71d9f",
+    "files_count": 3
+  },
+  "after": {
+    "head": "UNBORN",
+    "branch": "main",
+    "tree_sha256": "2ef998037bd8d1e6f50638102bd3eef510564348ab59994e359c9cd2a86ce032",
+    "environment": {
+      "os": "Darwin",
+      "release": "27.0.0",
+      "machine": "arm64",
+      "python": "3.9.6",
+      "git": "git version 2.54.0 (Apple Git-157)"
+    },
+    "environment_sha256": "c57f15f80f23c3631c20f98d6ab60395ec54af785982e9850450ad15c9f71d9f",
+    "files_count": 3
+  },
+  "log": ".dev-guardian/evidence/20261016T143326.854070Z-2d57267f3a/output.log",
+  "log_sha256": "820595fc19483c6fda3977ee11a8197d788e3d8a631cc1e948845a78161a401a",
+  "output_bytes": 62,
+  "log_truncated": false
+}

@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "unit",
+  "level": "unit",
+  "status": "PASSED",
+  "exit_code": 0,
+  "reason": "",
+  "argv": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover"
+  ],
+  "cwd": ".",
+  "started_utc": "2026-10-16T14:34:27.281909+00:00",
+  "duration_seconds": 0.091,
+  "before": {
+    "head": "UNBORN",
+    "branch": "main",
+    "tree_sha256": "4a6e1eb21b52baef008f79fbb3954db3ceb07f9ba272e4848647002e175f3a66",
+    "environment": {
+      "os": "Darwin",
+      "release": "27.0.0",
+      "machine": "arm64",
+      "python": "3.9.6",
+      "git": "git version 2.54.0 (Apple Git-157)",
+      "environment_record_sha256": "dda54e4922d7b4ce9ae3379c76cd360942b48166f3b507d4deecc60883af2832"
+    },
+    "environment_sha256": "9dde7a98120d41a9a7ab164ba6b2f5e26983c891706417c2cdc65586716f308f",
+    "files_count": 4
+  },
+  "after": {
+    "head": "UNBORN",
+    "branch": "main",
+    "tree_sha256": "4a6e1eb21b52baef008f79fbb3954db3ceb07f9ba272e4848647002e175f3a66",
+    "environment": {
+      "os": "Darwin",
+      "release": "27.0.0",
+      "machine": "arm64",
+      "python": "3.9.6",
+      "git": "git version 2.54.0 (Apple Git-157)",
+      "environment_record_sha256": "dda54e4922d7b4ce9ae3379c76cd360942b48166f3b507d4deecc60883af2832"
+    },
+    "environment_sha256": "9dde7a98120d41a9a7ab164ba6b2f5e26983c891706417c2cdc65586716f308f",
+    "files_count": 4
+  },
+  "log": ".dev-guardian/evidence/20261016T143427.280119Z-75ed556639/output.log",
+  "log_sha256": "fb184ea57734512b1f088f9181209901b9cd46df3eb7eaa2500ea9e48dde20b5",
+  "output_bytes": 98,
+  "log_truncated": false
+}
