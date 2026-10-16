@@ -53,3 +53,5 @@ python3 outputs/dev-guardian/scripts/guardian.py --root . check
 ## 後續 GitHub 發布（2026-10-16）
 
 已建立私人儲存庫 [ZIRUL-0902/dev-guardian](https://github.com/ZIRUL-0902/dev-guardian)，後續狀態以 GitHub 與專案 STATE 為準。前文的「未設定遠端／未推送」描述第一階段交付狀態。SSH 安裝與更新請見 [SSH-INSTALL.md](SSH-INSTALL.md)；目前 Codex 官方使用者技能路徑為 `~/.agents/skills`。原始 zip 是第一階段快照，GitHub 包含後續文件更新。
+
+GitHub 發布驗證：`0d09675016f7c389a4cb183f591d092831e01aa0` 已推送；GitHub 重新 clone 後的安裝連結與 21 個測試通過。[GitHub Actions 38921244577](https://github.com/ZIRUL-0902/dev-guardian/actions/runs/38921244577) 的 Ubuntu/macOS × Python 3.9/3.13 四組全部 success，取代前文 CI／Linux 尚未執行的狀態。實際 SSH 主機上的 Codex 探索仍 NOT TESTED。

@@ -8,8 +8,8 @@
 - Evidence run: python3 outputs/dev-guardian/scripts/guardian.py --root . verify
 - Required acceptance IDs: guardian-cli (local CLI integration). No application/product behavior is supplied by this repository.
 - Skill metadata validation: work/validator-env/bin/python /Users/ryanliu/.codex/skills/.system/skill-creator/scripts/quick_validate.py outputs/dev-guardian. This development-only venv uses PyYAML 6.0.3; absent from system and bundled Python. Not a runtime dependency.
-- CI: .github/workflows/dev-guardian.yml; Ubuntu/macOS x Python 3.9/3.13. Jobs defined; NOT TESTED on remote runner. No external deployment/remote target.
-- Server/Linux/Windows and other LLM clients: NOT TESTED. Independent local fresh agent pass used same available model, not Claude/Gemini.
+- CI: .github/workflows/dev-guardian.yml; Ubuntu/macOS x Python 3.9/3.13. All four jobs PASSED in GitHub Actions run 38921244577 for source revision 0d09675. No product deployment target.
+- Linux CLI tests passed on GitHub Ubuntu; actual SSH server Codex/Windows/other LLM clients: NOT TESTED. Independent local fresh agent pass used same available model, not Claude/Gemini.
 - Third-party installations: see outputs/installations.json, with pinned Taste commit and inspected Ponytail commit/version.
 - Bundled Node tested: v24.19.0, executable at ~/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node. Default shell PATH has no node. Use explicit executable or add that directory to PATH for these scripts; lifecycle hook environment remains NOT TESTED.
 - Chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome; Taste isolated real-browser inspector passed with one WARN (no action button on smoke fixture).

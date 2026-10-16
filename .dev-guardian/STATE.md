@@ -28,7 +28,8 @@ Status: implemented; local verification executed; external guarantees remain exp
 | Taste installed 29-file match, direction generator and real Chrome inspector | install/local smoke | PASSED | outputs/installations.json; one fixture action-button WARN |
 | Automatic discovery in a subsequent Codex turn / actual Ponytail lifecycle hook | client execution | NOT TESTED | new turn/thread and upstream hook trust needed; Node absent from default PATH |
 | Claude/Gemini/other model client and second physical device | external environment | NOT TESTED | independent local agent used available same model |
-| Remote Linux/macOS CI matrix and Windows | external environment | NOT TESTED | CI supplied, no remote configured/run |
+| Remote Linux/macOS CI matrix | external environment | PASSED | GitHub Actions 38921244577; four successful jobs |
+| Windows | external environment | NOT TESTED | no Windows runner |
 | Physical device/product external integration | hardware/integration | BLOCKED | no application/hardware/service supplied; no product acceptance claimed |
 
 ## Known failures and reliability
@@ -50,5 +51,7 @@ Read current result/log and reconcile actual source before further work. Repeat 
 - Scope: publish existing repository as ZIRUL-0902/dev-guardian (private by default), add SSH installation instructions, preserve prior records and user edits.
 - Acceptance: authenticated repository creation, successful push, matching remote/local HEAD, clean fresh clone with skill/resources present and all 21 CLI tests passing.
 - Remote SSH Codex runtime remains NOT TESTED until run on the user's actual host. No SSH server or target path supplied.
-- Progress: private GitHub repository created; README and outputs/SSH-INSTALL.md added; official current user skill path verified; local 21-case suite passed after documentation changes.
-- Next: commit/push reviewed changes, compare remote/local HEAD, run fresh-clone tests and inspect CI.
+- Complete: private repository pushed at 0d09675016f7c389a4cb183f591d092831e01aa0; remote/local/fresh clone HEAD matched. Fresh-clone installation symlink and 21 tests passed.
+- CI PASSED: run 38921244577, Ubuntu/macOS x Python 3.9/3.13, all four jobs success.
+- Next: user runs outputs/SSH-INSTALL.md on their actual SSH host; authenticate GitHub there, then invoke $dev-guardian in Codex. Actual remote host discovery remains NOT TESTED.
+- Publication status/report updates are documentation only; source code CI evidence is bound to 0d09675.
